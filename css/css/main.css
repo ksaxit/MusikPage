@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  background-color: black;
+  height: 1056px;
+}
+.header-logo {
+  position: relative;
+  left: 172px;
+  top: 47px;
+  text-align: left;
+}
+.head-category {
+  color:aliceblue;
+  position: relative;
+  left: 365px;
+  top: -5px;
+  display: flex;
+  justify-content: left;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  gap: 100px
+}
+.grid-player {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.text-musik-player {
+  color:aliceblue;
+  margin-top: 200px;
+  margin-left: 172px;
+}
+.musik-player-h1 {
+  font-family: 'Kenia', cursive;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 150px;
+  letter-spacing: 0em;
+  text-align: left;  
+}
+.musik-player-p {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 150px;
+}
+.phone {
+  position: absolute;
+  top: 160px;
+  left: 860px;
+  z-index: 2;
+}
+.cabel {
+  position: absolute;
+  top: 894px;
+  left: 913px;
+}
+.main-one {
+  background-color: #D53005;
+  height: 1024px;
+}
+.main-one-musik {
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  position: relative;
+  top: 83px;
+  left: 122px;  
+  color: white;
+}
