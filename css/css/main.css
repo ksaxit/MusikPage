@@ -85,3 +85,221 @@ header {
   left: 122px;  
   color: white;
 }
+.musik-blocks-and-disk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.musik-one-blocks-one {
+  position: relative;
+  top: 385px;
+  left: 122px;
+  border: 1px solid #00000080;
+  width: 352px;
+  height: 73px;
+  background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+  text-align: center;
+  box-shadow: -4px -4px 30px 0px #FFFFFF1A;
+  box-shadow: 4px 4px 4px 0px #00000080;
+
+}
+.musik-one-blocks-two {
+  position: relative;
+  top: 556px;
+  left: 122px;
+  border: 1px solid #00000080;
+  width: 352px;
+  height: 73px;
+  background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+  text-align: center;
+  box-shadow: -4px -4px 30px 0px #FFFFFF1A;
+  box-shadow: 4px 4px 4px 0px #00000080;
+}
+.musik-one-blocks-h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  padding-top: 10px;  
+  color: white;
+}
+.musik-one-blocks-img {
+  position: relative;
+  top: 179px;
+}
+.main-two {
+  height: 1024px;
+  background: linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+  color: white;
+}
+.main-two-blocks-one {
+  width: 81px;
+  height: 35px;
+  position: relative;
+  top: 83px;
+  left: 122px;
+}
+.main-two-blocks-two {
+  width: 969px;
+  height: 72px;
+  position: relative;
+  top: 476px;
+  left: 275px;
+}
+.main-two h3, p {
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;  
+}
+.main-three {
+  height: 1024px;
+  background-color: #D53005;
+}
+.main-three-store {
+  width: 73px;
+  height: 35px;
+  position: relative;
+  top: 83px;
+  left: 122px;
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  color: white;
+}
+.main-three-windows {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  top: 254px;
+  left: 110px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #020202E5;
+  text-align: center;
+  box-shadow: -4px -4px 4px 0px #FFFFFF1A;
+  box-shadow: 4px 4px 4px 0px #00000040;
+  
+}
+.main-three-montserrat {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding-top: 5px;
+}
+.main-three-Mac {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  top: 362px;
+  left: 110px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #ffffffe5;
+  text-align: center;
+  box-shadow: -4px -4px 4px 0px #FFFFFF1A;
+  box-shadow: 4px 4px 4px 0px #00000040;
+}
+.main-three-montserrat-Mac {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding-top: 5px;
+}
+.main-three-MPlayer {
+  width: 550px;
+  position: relative;
+  top: 557px;
+  left: 45px;
+}
+.main-three-p {
+  width: 431px;
+  height: 110px;
+  position: relative;
+  top: 602px;
+  left: 19px;
+  text-align: center;
+}
+.main-three-montserrat-p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center; 
+  color: white; 
+}
+.main-three-p-a {
+  color: #040404CC;
+}
+.main-three-p-a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer {
+  height: 500px;
+  background: linear-gradient(180deg, #D53005 0%, #000000 4.01%);
+  color: white;
+}
+.footer-one {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 350px 350px 350px;
+  position: relative;
+  top: 120px;
+  left: 400px;
+}
+.main-a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+.main-a:hover {
+  cursor:pointer;
+  text-decoration: underline;
+  color: #D53005;
+}
+.second-a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.5px;
+}
+.second-a:hover {
+  cursor:pointer;
+  text-decoration: underline;
+  color: #D53005;
+}
+.footer-musik-player {
+  width: 138px;
+  height: 100px;
+  position: relative;
+  top: 200px;
+  left: 110px;
+}
+.footer-musik-player a {
+  font-family: 'Kenia', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.footer-end {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  position: relative;
+  left: 106px;
+  top: 200px
+}
